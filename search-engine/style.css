@@ -223,7 +223,7 @@ body {
 }
 
 @keyframes scan {
-    0% { transform: translateX(-70px); }
+    0% { transform: translateX(-10px); }
     100% { transform: translateX(560px); }
 }
 
@@ -277,4 +277,17 @@ body {
         top: 20px;
         right: 20px;
     }
+}
+.monkey.screamer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+
+#monkey{
+    display: none;
+}
+#monkey:target{
+    display: block;
 }
